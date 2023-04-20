@@ -1,0 +1,91 @@
+/****************************body****************************/
+body {
+  background-image: url("/frontend/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% -70%;
+  overflow: hidden;
+}
+
+/****************************Navbar****************************/
+
+
+
+
+
+/****************************login form****************************/
+.login-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f0f0;
+  width: 50%;
+  height: 50%;
+  border-radius: 60px;  
+  min-height: 400px;
+
+}
+
+.form {
+  background-color: #EDEDED;
+  width: 50%;
+  height: 40%;
+}
+.form-fields{
+  display: block;
+  margin: 20px;
+  border-radius: 10px;
+}
+.input-fields{
+  width: 500px;
+  height: 40px;
+}
+label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#arrow {
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
+  width: 10px;
+  height: 10px;
+  rotate: -45deg;
+  margin: 0 auto;
+}
+input{
+  text-align: center;
+  font-family: roboto;
+  font-size: 20px;
+}
+span{
+  font-family: roboto;
+  font-size: 20px;
+}
+input::placeholder{
+  color: black;
+  font-weight: normal;
+  font-family: roboto;
+  font-size: 20px;
+  padding-left: 10px;
+  text-align: left;
+}
+input:focus::placeholder{
+  color: transparent;
+}
+#submit-button{
+  font-family: roboto;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: green;
+  border: green 5px solid;
+}

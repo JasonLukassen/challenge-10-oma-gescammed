@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-</head>
-<body>
-    <h1>Login</h1>
-</body>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+
+    <div class="login-page">
+      <div class="container">
+        <form class="login-form">
+          <label><h1>Login Here</h1></label>
+          <div id="arrow"></div>
+          <input type="text" class="form-fields input-fields" id="username" placeholder="Username" required autocomplete="off"/>
+          <input type="password" class="form-fields input-fields" id="password" placeholder="Password" required autocomplete="off"/>
+          <label>
+            <input type="checkbox" class="form-fields input fields" id="toggle-password-visibility" onclick="showPassword()">
+            <span>Show Password</span>
+          </label>
+          <button type="submit" class="form-fields" id="submit-button">Login</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+<script src="/frontend/javascript/login.js"></script>  
 </html>
