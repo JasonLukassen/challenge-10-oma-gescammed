@@ -9,3 +9,10 @@ let showPassword= () => {
         password.type = "password";
     }
 }
+
+
+// if (logedin == true){
+//     app.get("/dashboard.html", function(){
+//         render("dashboard.html");
+//     });
+// }

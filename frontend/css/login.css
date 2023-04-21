@@ -8,7 +8,38 @@ body {
 }
 
 /****************************Navbar****************************/
-
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: 400;
+  overflow: hidden;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.navbar a {
+  display: inline;
+  color: black;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+.navbar-items{
+  margin: 10px 50px;
+}
+.navbar a.active{
+  border-bottom: 2px solid aqua;
+  padding-bottom: 2px;
+}
+#login:hover {
+  border-bottom: 2px solid aqua;
+  padding-bottom: 2px;
+}
 
 
 
@@ -88,4 +119,8 @@ input:focus::placeholder{
   background-color: white;
   color: green;
   border: green 5px solid;
+}
+#submit-button:hover{
+  color: white;
+  background-color: green;
 }
