@@ -60,7 +60,7 @@ body {
   height: 50%;
   border-radius: 60px;  
   min-height: 400px;
-
+  min-width: 500px;
 }
 
 .form {
@@ -123,4 +123,24 @@ input:focus::placeholder{
 #submit-button:hover{
   color: white;
   background-color: green;
+}
+
+@media (max-width: 650px){
+  body {
+    background-position: 10% -1000%;
+  }
+  .container {
+    width: 600px;
+  }
+  .input-fields{
+    width: 450px;
+  }
+}
+@media (min-width: 650px){
+  .container {
+    min-width: 700px;
+  }
+  body {
+    background-position: 10% 100;
+  }
 }

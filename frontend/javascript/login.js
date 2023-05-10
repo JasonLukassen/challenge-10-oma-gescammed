@@ -1,5 +1,5 @@
 
-let showPassword= () => {
+let showPassword = () => {
     let checkbox = document.getElementById("toggle-password-visibility");
     let password = document.getElementById("password");
     if (checkbox.checked === true){

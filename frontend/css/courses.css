@@ -1,40 +1,43 @@
-/* navbar */
-.navbar {
+/****************************body****************************/
+body {
+    background-image: url("/frontend/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% -70%;
+    overflow: hidden;
+  }
+  
+  /****************************Navbar****************************/
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: roboto;
     font-size: 25px;
+    font-weight: 400;
     overflow: hidden;
     background-color: transparent;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
-}
-
-.navbar a {
-    display: block;
+  }
+  .navbar a {
+    display: inline;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     text-decoration: none;
-}
-.left-navbar-items{
-    float: left;
-    margin-left: 30px;
-}
-.right-navbar-items{
-    float: right;
-    margin-right: 30px;
-}
-.navbar a:hover {
-    color: black;
+  }
+  .navbar-items{
+    margin: 10px 50px;
+  }
+  .navbar a.active{
     border-bottom: 2px solid aqua;
-    padding-bottom: 3px;
-}
-
-.navbar a.active {
+    padding-bottom: 2px;
+  }
+  #login:hover {
     border-bottom: 2px solid aqua;
-    padding-bottom: 3px;
-}
-
-  
+    padding-bottom: 2px;
+  }
   
